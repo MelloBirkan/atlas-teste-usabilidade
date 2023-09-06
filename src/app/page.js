@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 export default function Home() {
   return (
     <div>
@@ -33,6 +31,11 @@ export default function Home() {
       >
         <span>Clique aqui para entrar no protótipo</span>
       </a>
+      <h2>Tarefas</h2>
+      <h3>Encontrar fichas</h3>
+      <ol>
+        <li>Encontre a Ficha Americana</li>
+      </ol>
     </div>
   )
 }
