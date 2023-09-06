@@ -1,7 +1,9 @@
 export default function Home() {
   return (
     <div className="bg-white text-gray-600 text-sm mx-2">
-      <h1 className="text-slate-950 text-3xl font-bold pb-2">Atlas das Américas: Avaliação de usabilidade</h1>
+      <h1 className="text-slate-950 text-3xl font-bold pb-2">
+        Atlas das Américas: Avaliação de usabilidade
+      </h1>
       <p>
         A avaliação de usabilidade busca entender como os usuários interagem com
         o produto, identificar problemas de usabilidade, e coletar feedbacks
@@ -15,7 +17,7 @@ export default function Home() {
         protótipo. Ao final de cada tarefa, olhe a próxima tarefa antes de
         realizar qualquer ação.
       </p>
-      <p >
+      <p>
         Após realizar todas as tarefas, temos outro link para o preenchimento de
         um questionário pós teste com o propósito de entender sua experiência e
         coletar feedbacks. Desde já, agradecemos sua colaboração!
@@ -35,7 +37,8 @@ export default function Home() {
       <h3>Encontrar fichas</h3>
       <ol>
         <li>
-          Encontre a Ficha Americana<span> Citação/Intimação/Notificação</span> do país <strong>Brasil</strong>
+          Encontre a Ficha Americana<span> Citação/Intimação/Notificação</span>{' '}
+          do país <strong>Brasil</strong>
           <strong>Resultado esperado</strong>
           <img src="../images/Resultado esperado - tarefa 1.png"></img>
         </li>
@@ -45,17 +48,21 @@ export default function Home() {
           <img src="../images/Resultado esperado - tarefa 2.png"></img>
         </li>
         <li>
-          Encontre a Ficha Americana<span> Citação/Intimação/Notificação</span> do país <strong>Argentina</strong>
+          Encontre a Ficha Americana<span> Citação/Intimação/Notificação</span>{' '}
+          do país <strong>Argentina</strong>
           <strong>Resultado esperado</strong>
           <img src="../images/Resultado esperado - tarefa 3.png"></img>
         </li>
         <li>
-          Deixe a Ficha Americana<span>Citação/Intimação/Notificação</span> do país <strong>Brasil</strong> no <strong>idioma espanhol</strong>
+          Deixe a Ficha Americana<span>Citação/Intimação/Notificação</span> do
+          país <strong>Brasil</strong> no <strong>idioma espanhol</strong>
           <strong>Resultado esperado</strong>
           <img src="../images/Resultado esperado - tarefa 4.png"></img>
         </li>
         <li>
-        Volte a deixar a página da Ficha Americana<span>Citação/Intimação/Notificação</span> do país <strong>Brasil</strong> no <strong>idioma espanhol</strong>
+          Volte a deixar a página da Ficha Americana
+          <span>Citação/Intimação/Notificação</span> do país{' '}
+          <strong>Brasil</strong> no <strong>idioma espanhol</strong>
           <strong>Resultado esperado</strong>
           <img src="../images/Resultado esperado - tarefa 5.png"></img>
         </li>
