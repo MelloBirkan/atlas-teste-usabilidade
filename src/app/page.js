@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div>
-      <h1>Atlas das Américas: Avaliação de usabilidade</h1>
+    <div className="bg-white .w-min text-gray-600">
+      <h1 className="text-slate-950">Atlas das Américas: Avaliação de usabilidade</h1>
       <p>
         A avaliação de usabilidade busca entender como os usuários interagem com
         o produto, identificar problemas de usabilidade, e coletar feedbacks
@@ -15,7 +15,7 @@ export default function Home() {
         protótipo. Ao final de cada tarefa, olhe a próxima tarefa antes de
         realizar qualquer ação.
       </p>
-      <p>
+      <p >
         Após realizar todas as tarefas, temos outro link para o preenchimento de
         um questionário pós teste com o propósito de entender sua experiência e
         coletar feedbacks. Desde já, agradecemos sua colaboração!
@@ -34,7 +34,31 @@ export default function Home() {
       <h2>Tarefas</h2>
       <h3>Encontrar fichas</h3>
       <ol>
-        <li>Encontre a Ficha Americana</li>
+        <li>
+          Encontre a Ficha Americana<span> Citação/Intimação/Notificação</span> do país <strong>Brasil</strong>
+          <strong>Resultado esperado</strong>
+          <img src=""></img>
+        </li>
+        <li>
+          Volte para as Fichas Americnas do país <strong>Brasil</strong>
+          <strong>Resultado esperado</strong>
+          <img src=""></img>
+        </li>
+        <li>
+          Encontre a Ficha Americana<span> Citação/Intimação/Notificação</span> do país <strong>Argentina</strong>
+          <strong>Resultado esperado</strong>
+          <img src=""></img>
+        </li>
+        <li>
+          Encontre a Ficha Americana<span>Citação/Intimação/Notificação</span> do país <strong>Brasil</strong>
+          <strong>Resultado esperado</strong>
+          <img src=""></img>
+        </li>
+        <li>
+          Encontre a Ficha Americana<span>Citação/Intimação/Notificação</span> do país <strong>Brasil</strong>
+          <strong>Resultado esperado</strong>
+          <img src=""></img>
+        </li>
       </ol>
     </div>
   )
