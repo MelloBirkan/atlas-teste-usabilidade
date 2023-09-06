@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="px-20 bg-white text-gray-800 text-xm flex flex-col">
+    <div className="px-14 bg-white text-gray-800 text-xm flex flex-col">
       <div className="flex flex-start">
         <h1 className="text-slate-950 text-6xl font-bold pb-4 pt-4">
           Atlas das Américas: Avaliação de usabilidade
