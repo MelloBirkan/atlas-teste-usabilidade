@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <div className="px-14 bg-white text-gray-800 text-xm flex flex-col">
@@ -34,14 +36,15 @@ export default function Home() {
         Por favor, clique no seguinte link para acessar o protótipo e com ele
         aberto, faça as tarefas:
       </p>
-      <a
+      <Link
         href="https://www.figma.com/proto/mI8jPFOK39MSB1AyiQmkOT/Atlas-prototipo?page-id=0%3A1&type=design&node-id=461-13978&viewport=-6628%2C-5350%2C0.34&t=RXELGDCSVspqvtg0-1&scaling=scale-down&starting-point-node-id=461%3A13978&mode=design"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <span className="font-bold text-blue-700 underline-4">
           Clique aqui para entrar no protótipo
         </span>
-      </a>
+      </Link>
       <h2 className="text-slate-950 text-4xl font-bold pb-1 pt-10 text-left">
         Tarefas
       </h2>
@@ -109,13 +112,14 @@ export default function Home() {
         Obrigado por chegar até aqui! Clique no seguinte link para acessar o
         questionário pós teste:
       </p>
-      <a
+      <Link
         className="font-bold text-blue-700 pb-16"
         href="https://docs.google.com/forms/d/e/1FAIpQLSdEOmA-zsTKw609oyvKEWt0ig-2S6CWhFsBNx_bGntWD9kGvQ/viewform?usp=sf_link"
         target="_blank"
+        rel="noopener noreferrer"
       >
         Link para o questionário
-      </a>
+      </Link>
     </div>
   )
 }
