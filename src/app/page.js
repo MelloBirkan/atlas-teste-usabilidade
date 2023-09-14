@@ -85,7 +85,7 @@ export default function Home() {
         <li className="">
           <strong>4.</strong> Deixe a Ficha Americana
           <span className="font-bold "> Citação/Intimação/Notificação</span> do
-          país <strong>Brasil</strong> no <strong>idioma espanhol</strong>
+          país <strong>Argentina</strong> no <strong>idioma espanhol</strong>
           <p className="pt-1 pb-1">
             <strong className="text-lg m-1 text-yellow-700">
               Resultado esperado
@@ -96,7 +96,7 @@ export default function Home() {
         <li className="my-4">
           <strong> 5.</strong> Volte a deixar a página da Ficha Americana{' '}
           <span className="font-bold "> Citação/Intimação/Notificação</span> do
-          país <strong>Brasil</strong> no <strong>idioma portugues</strong>
+          país <strong>Argentina</strong> no <strong>idioma portugues</strong>
           <p className="pt-2 pb-1">
             <strong className="text-lg m-1 text-yellow-700">
               Resultado esperado
